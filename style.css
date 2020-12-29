@@ -300,7 +300,7 @@ small {
     }
 }
 
-@media (max-width: 1080px){
+@media (max-width: 400px){
     .mobile-menu{
         display: block;
     }
