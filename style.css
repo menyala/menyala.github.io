@@ -317,8 +317,9 @@ small {
         display: grid;
         align-items: center;
         text-align: center;
-
-  
+    }
+    .service{
+        align-items: center;
     }
     .banner .container img{
      
