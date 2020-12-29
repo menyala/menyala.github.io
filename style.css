@@ -184,8 +184,8 @@ section h3::after{
     cursor: auto;
 }
 .colom{
-    display:;
-    gap: 10px;
+    display: grid;
+    gap: 5px;
     margin: 80px;
     
 }
