@@ -11,30 +11,15 @@
 </head>
 <body>
 
-    <!--sidebar-->
-    <input type="checkbox" name="" id="check">
-    <div class="sidebar">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="galery.html">GALERY</a></li>
-            <li><a href="contact.html">ROASTERY</a></li>
-        </ul>
-    </div>
-
-    <!-- header -->
-
-    <header>
-        <div class="container">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="galery.html">GALERY</a></li>
-            <li><a href="contact.html">ROASTERY</a></li>
-        </ul>
-
-        <!--menu mobile-->
-        <label for="check" class="mobile-menu"><i class="fa fa-bars fa-2x"></i></label>
-    </div>
-    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="contact.html">Roastery</a>
+      </div>
+      
+    
+    
 
     <!--banner-->
 
@@ -44,9 +29,7 @@
         </div>
     </section>
     <!--cover-->
-    <div class="cover">
-        <img src="image/b1.jpg" alt="">
-    </div>
+    <img src="image/b1.jpg" alt="Nature" class="responsive">
   <!--CONTAK-->
 
 
@@ -71,10 +54,7 @@
 </footer>
 
 
-<script type="text/javascript">
-    $(document).ready(function(){
-        $(".bg-loader").hide();
-    })
+
 </script>
 </body>
 </html>
