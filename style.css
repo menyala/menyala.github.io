@@ -303,7 +303,7 @@ small {
     }
 }
 
-@media (max-width: 1080px){
+@media (max-width: 1080px;){
     .mobile-menu{
         display: block;
     }
