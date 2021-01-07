@@ -1,9 +1,9 @@
-const galery = document.querySelector('.galery');
-const jumbo = document.querySelector('.jumbo');
-
-galery.addEventListener('click', function(e){
-
-    if(e.target.classname == 'thumb'){
-        jumbo.src = e.target.src;
-    }
-});
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
