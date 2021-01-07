@@ -319,11 +319,10 @@ small {
     .colom{
         display: grid;
         align-items: center;
-        text-align: center;
-        margin-left: 20px;
     }
     .colom .service{
         align-items: center;
+        margin-left: 20px;
     }
     .banner .container img{
      
