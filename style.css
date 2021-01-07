@@ -161,6 +161,7 @@ section h3::after{
 .service {
     padding: 20px;
     text-align: center;
+    margin-top: 10px;
     gap: 30px;
     border: 1px solid black;
     justify-content: space-between;
