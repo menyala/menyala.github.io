@@ -310,7 +310,13 @@ small {
     header ul{
         display: none;
     }
-  
+    .cover{
+    align-item:center;
+    }
+    
+    .cover img{
+    width: 100%;
+    }
     .menu img{
         width: 100%;
         display: grid;
@@ -332,11 +338,5 @@ small {
         width: 100%;
         display: grid;
     }
-
-}
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
 
 }
