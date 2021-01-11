@@ -271,6 +271,7 @@ color: orange;
  .pilihan{
    display: flex;
    justify-content: space-around;
+   flex-wrap: wrap;
    text-align: center;
    align-items: center;
  }
