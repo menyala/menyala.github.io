@@ -90,6 +90,26 @@ html {
   opacity: 1;
   right: 0;
 }
+
+.btn {
+  border-radius: 4px;
+  background-color: #585858;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color: rgb(255, 166, 1);
+  color: white;
+}
 /*footter*/
 footer{
   background-color: rgb(0, 0, 0);
