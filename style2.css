@@ -46,6 +46,50 @@ html {
   position: fixed;
   
 }
+/*button */
+.pilihan {
+  margin: 20px;
+  text-align: center;
+}
+.button {
+  border-radius: 4px;
+  background-color: #585858;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+  color: rgb(255, 187, 0);
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 /*footter*/
 footer{
   background-color: rgb(0, 0, 0);
@@ -202,7 +246,12 @@ small {
       display: grid; 
       width: auto;   
    }
-   .
+   .pilihan{
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     align-items: center;
+   }
    .container-1{
      flex-direction: column;
      align-items: center;
