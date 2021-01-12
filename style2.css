@@ -20,9 +20,9 @@ padding-top: 60px;
 }
 
 .sidenav a {
-padding: 8px 8px 8px 32px;
+padding: 4px 8px 8px 32px;
 text-decoration: none;
-font-size: 25px;
+font-size: 20px;
 color: #ffffff;
 display: block;
 transition: 0.3s;
@@ -112,7 +112,6 @@ color: white;
 }
 /*footter*/
 footer{
-margin-top: 500px;
 background-color: rgb(0, 0, 0);
 text-align: center;
 display: flex;
@@ -190,6 +189,31 @@ color: black;
 .container a:hover{
 color: orange;
 }
+.sugest{
+  text-align: center;
+  height: 400px;
+  margin: auto;
+  background-color: gainsboro;
+}
+.sugest h2{
+  font-family: 'Playfair Display', serif;
+  padding-top: 20px;
+  text-align: center;
+  color: #6e6e6e;
+}
+.sugest .similar h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+.similar{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 800px;
+  margin: 40px auto;
+  
+}
 
 .card {
   max-width: 230px;
@@ -241,7 +265,6 @@ color: orange;
   display: flex;
   align-items: center;
   font-size: 14px;
-  border: solid 2px black;
 }
 .poto img{
  width: 400px;
