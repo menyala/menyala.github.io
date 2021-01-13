@@ -7,6 +7,30 @@ html {
     scroll-behavior: smooth ;
 }
 
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    animation: loader-inner 2s infinite ease-in;
+  }
+
 .sidenav {
     height: 100%;
     width: 0;
