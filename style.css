@@ -19,16 +19,16 @@ html {
   }
   .loader {
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    animation: loader 2s infinite ease;
+    width: 100%;
+    height: 100%;
+    position: fixeds;
+    animation: loader 5s infinite ease;
   }
   .loader-inner {
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    animation: loader-inner 2s infinite ease-in;
+    animation: loader-inner 5s infinite ease-in;
   }
 
 .sidenav {
