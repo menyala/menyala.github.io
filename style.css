@@ -37,7 +37,7 @@ html {
     text-align: center;
     display: inline-block;
     width: 39%;
-    min-height: 350px;
+    min-height: 200px;
     position: relative;
     animation: loader 2s infinite ease;
   }
