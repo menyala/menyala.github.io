@@ -6,6 +6,22 @@
 html {
   scroll-behavior: smooth;
 }
+
+.barkontak img{
+  width: 50px;
+}
+.barkontak a{
+  position: fixed;
+  color: green;
+  z-index: 1;
+  margin-left: 1250px;
+  margin-top: 540px;
+  border-radius: 40PX;
+  opacity: 0.8;
+}
+.barkontak a:hover {
+  opacity: 0.7;
+}
 .sidenav {
 height: 100%;
 width: 0;
@@ -157,6 +173,7 @@ color:orangered;
   opacity: 0.1;
   width: 100%;
 }
+
 section{
     text-align: center;
     
