@@ -152,10 +152,10 @@ color: orange;
   text-align: center;
   height: 400px;
   margin: auto;
-  background-color: gainsboro;
+
 }
 .sugest h2{
-  font-family: 'Playfair Display', serif;
+  border-bottom: solid 1px black;
   padding-top: 20px;
   text-align: center;
   color: #6e6e6e;
@@ -259,12 +259,23 @@ color: orange;
    align-items: center;
  }
  .container-1{
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
+  display: grid;
+ width: auto;
+ align-items: center;
+ text-align: center;
  }
  .container-1 .poto img{
-   width: 300px;
+   width: 200px;
+ }
+ .sugest{
+   margin-top: 150px;
+   margin-bottom: 900px;
+ }
+ .similar{
+   display: grid;
+   width: auto;
+   align-items: center;
+   text-align: center;
  }
  .responsive{
   position: fixed;
@@ -272,5 +283,7 @@ color: orange;
   opacity: 0.1;
   width: 100%;
  }
-  
+ .page-footer{
+   margin-top: 900px;
+ }
 }
