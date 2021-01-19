@@ -259,17 +259,26 @@ section h3::after{
     margin: 80px;
     
 }
-
-
-
-.service {
-    padding: 20px;
+/*careers*/
+.containersatu {
+    position: relative;
     text-align: center;
-    margin-top: 10px;
-    gap: 30px;
-    border: 1px solid black;
-    justify-content: space-between;
-}
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    opacity: 0.5;
+  }
+  
+ 
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.map{
+    margin-bottom: 150px;
+    margin-top: 200px;
+ }
 
 
 .service a{
@@ -318,10 +327,7 @@ footer img{
     width: 200px;
 }
 
-.map{
-    margin-bottom: 150px;
-   margin-top: 20px;
-}
+
 small {
     color:orangered;
 }
