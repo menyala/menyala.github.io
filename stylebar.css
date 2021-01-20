@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Suez One', serif;
+  font-family: 'quicksand',sans-serif;
 
 }
 html{
-  background-color: #ffae00;
+  background-color: #000000;
 }
 
 section{
@@ -81,6 +81,7 @@ section{
   padding: 20px;
   position: fixed;
   z-index: 2;
+  color: white;
 }
 
 @media screen and (max-height: 450px) {
