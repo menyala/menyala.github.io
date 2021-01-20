@@ -275,6 +275,15 @@ section h3::after{
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .centered a{
+      overflow: hidden;
+      text-decoration: none;
+      color: black;
+  }
+
+.centered a:hover{
+    color: orange;
+}
 .map{
     margin-bottom: 150px;
     margin-top: 200px;
