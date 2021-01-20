@@ -239,6 +239,48 @@ color: orange;
   color: #ffd000;
 }
 
+.buybutton{
+  align-items: center;
+  text-align: center;
+}
+.button {
+  padding: 19px;
+  font-size: 23px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+.button1 img{
+  width: 80px;
+}
+.button1{
+  padding: 19px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+}
+
+.button1:hover {background-color: #3e8e41}
+
+.button1:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
 
 
 
