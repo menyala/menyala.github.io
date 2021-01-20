@@ -89,3 +89,18 @@ section{
   .sidenav a {font-size: 18px;}
 }
 
+
+@media (max-width: 1080px){
+    
+  .containersatu{
+    font-size: 3px;
+    align-items: center;
+  }
+  .centered{
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
+
