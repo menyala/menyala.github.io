@@ -101,7 +101,7 @@ section{
 }
 
 .banner img{
-    width: 200px;
+    width: 100px;
 }
 .banner a:hover img{
     transform: scale(1.1);
