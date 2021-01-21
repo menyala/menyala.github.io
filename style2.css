@@ -180,7 +180,7 @@ section{
 }
 
 .banner img{
-  width: 300px;
+  width: 150px;
 }
 .banner a:hover img{
   transform: scale(1.1);
