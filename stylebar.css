@@ -84,6 +84,29 @@ section{
   color: white;
 }
 
+
+.piccareers{
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin: 60px;
+}
+.careers img{
+  width: 300px;
+  border: solid 2px white;
+  border-radius: 15px;
+}
+.careers a{
+  text-decoration: none;
+  overflow: hidden;
+  color: whitesmoke;
+}
+.careers a:hover{
+  color: orange;
+  transition: 0.5s;
+}
+
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -95,6 +118,8 @@ section{
   .containersatu{
     font-size: 7px;
     align-items: center;
+    width: 100%;
+
   }
   .centered{
     align-items: center;
