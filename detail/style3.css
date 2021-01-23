@@ -329,4 +329,11 @@ color: orange;
    gap: 10px;
    margin-top: 150px;
  }
+  .barkontak img{
+        position: fixed;
+        width: 30px;
+        margin-left: -920px;
+        margin-top: 60px;
+    }
+
 }
