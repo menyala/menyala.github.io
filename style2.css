@@ -329,5 +329,10 @@ color: orange;
   opacity: 0.1;
   width: 100%;
  }
+   .barkontak a img{
+        position: fixed;
+        margin-left: -920px;
+        margin-top: 60px;
+    }
   
 }
