@@ -407,8 +407,13 @@ small {
     .loader{
         text-align: center;
     }
+     .barkontak a img{
+        position: fixed;
+        margin-left: -920px;
+        margin-top: 60px;
+    }
 
 }
 
 
-}
+
